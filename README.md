@@ -9,7 +9,7 @@
     <img src="images/Dark-PRO-Logo.png" alt="Logo" width="156" height="182">
   </a>
 
-  <h3 align="center">Monden PRO Dark Blue Zen</h3>
+  <h3 align="center">Monden PRO Dark Blue Zen - BETA - Not Final</h3>
 
   <p align="center">
     A Dark Theme that's both good for your eyes and looks great. Designed by a Graphic/Web Design PRO.
