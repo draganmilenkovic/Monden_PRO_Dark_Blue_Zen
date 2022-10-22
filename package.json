@@ -2,9 +2,19 @@
   "name": "monden-pro-dark-blue-zen",
   "displayName": "Monden PRO Dark Blue Zen",
   "description": "A Dark Theme that's both good for your eyes and looks great. Designed by a veteran Graphic/Web Designer.",
+  "publisher": "skilltech",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.72.0"
+  },
+  "icon": "images/monden-pro-dark-icon.png",
+  "author": {
+    "name": "Dragan Milenkovic",
+    "url": "https://www.skilltechwebdesign.com/"
+  },
+  "repository": {
+    "url": "https://github.com/draganmilenkovic/Monden_PRO_Dark_Blue_Zen.git",
+    "type": "git"
   },
   "categories": [
     "Themes"
