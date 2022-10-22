@@ -1096,7 +1096,14 @@
 			"name":"Tags",
 			"scope":"entity.name.tag",
 			"settings":{
-				"foreground":"#f8f8f0"
+				"foreground":"#F92672"
+			}
+		},
+		{
+			"name":"Support other variable",
+			"scope":"support.other.variable",
+			"settings":{
+				"foreground":"#9b7a46"
 			}
 		},
 		{
@@ -1148,6 +1155,27 @@
 			"scope":"keyword.other.unit",
 			"settings":{
 				"foreground":"#f8f8f0"
+			}
+		},
+		{
+			"name":"CSS Units",
+			"scope":"keyword.other.unit.css",
+			"settings":{
+				"foreground":"#F92672"
+			}
+		},
+		{
+			"name":"CSS Units Suffixes",
+			"scope":"constant.numeric.suffix",
+			"settings":{
+				"foreground":"#F92672"
+			}
+		},
+		{
+			"name": "Regular Expressions - Punctuation",
+			"scope": "punctuation.definition.group",
+			"settings": {
+				"foreground": "#F72D4A"
 			}
 		},
 		{
