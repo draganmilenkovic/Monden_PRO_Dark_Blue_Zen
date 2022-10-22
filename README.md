@@ -51,7 +51,7 @@ Monden PRO Dark Blue Zen theme strikes the center of beautiful colors and eye-ca
 <img src="https://github.com/draganmilenkovic/Monden_PRO_Dark_Blue_Zen/blob/main/images/demo-js-blue-xdeep.png" />
 
 #### CSS - Dark PRO Blue Zen
-<img src="https://github.com/draganmilenkovic/Monden_PRO_Dark_Blue_Zen/blob/main/images/demo-html-blue-xdeep.png" />
+<img src="https://github.com/draganmilenkovic/Monden_PRO_Dark_Blue_Zen/blob/main/images/demo-css-blue-zen.png" />
 
 #### PHP - Dark PRO Blue X-Deep
 <img src="https://github.com/draganmilenkovic/Monden_PRO_Dark_Blue_Zen/blob/main/images/demo-php-blue-xdeep.png" />
