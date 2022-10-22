@@ -431,6 +431,20 @@
 			}
 		},
 		{
+			"name":"Keyword declaration",
+			"scope":"keyword.declaration",
+			"settings":{
+				"foreground":"#2CD7FF"
+			}
+		},
+		{
+			"name":"JS dollar",
+			"scope":"punctuation.dollar",
+			"settings":{
+				"foreground":"#F92672"
+			}
+		},
+		{
 			"name":"js/ts import keyword",
 			"scope":"keyword.operator.expression.import",
 			"settings":{
@@ -1013,6 +1027,13 @@
 			"scope":"support.constant.property-value",
 			"settings":{
 				"foreground":"#d4d4d4"
+			}
+		},
+		{
+			"name":"Hegemony",
+			"scope":"punctuation.accessor",
+			"settings":{
+				"foreground":"#FF617F"
 			}
 		},
 		{
