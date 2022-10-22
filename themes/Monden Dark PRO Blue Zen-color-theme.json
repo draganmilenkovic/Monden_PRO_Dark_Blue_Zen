@@ -1110,7 +1110,7 @@
 			"name":"Attributes",
 			"scope":"entity.other.attribute-name",
 			"settings":{
-				"foreground":"#9661ff"
+				"foreground":"#B0FF5C"
 			}
 		},
 		{
@@ -1118,7 +1118,7 @@
 			"scope":"entity.other.attribute-name.id",
 			"settings":{
 				"fontStyle":"normal",
-				"foreground":"#1dcfff"
+				"foreground":"#B0FF5C"
 			}
 		},
 		{
@@ -1851,7 +1851,7 @@
 				"entity.other.attribute-name.pseudo-class"
 			],
 			"settings":{
-				"foreground":"#f72d4a"
+				"foreground":"#C2C7CC"
 			}
 		},
 		{
