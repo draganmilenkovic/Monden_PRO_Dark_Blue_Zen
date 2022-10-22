@@ -1082,7 +1082,7 @@
 			"name":"Constants",
 			"scope":"constant",
 			"settings":{
-				"foreground":"#9661ff"
+				"foreground":"#ff0000"
 			}
 		},
 		{
@@ -1567,6 +1567,20 @@
 			"scope":"function.parameter.ruby, function.parameter.cs",
 			"settings":{
 				"foreground":"#d4d4d4"
+			}
+		},
+		{
+			"name":"constant.language",
+			"scope":"constant.language",
+			"settings":{
+				"foreground":"#B97FFF"
+			}
+		},
+		{
+			"name":"User-defined constant",
+			"scope":"constant.character,constant.other",
+			"settings":{
+				"foreground":"#B685FF"
 			}
 		},
 		{
@@ -2186,6 +2200,30 @@
 			"name":"markup.italic.markdown",
 			"scope":"markup.italic.markdown",
 			"settings":{
+				"fontStyle":"italic"
+			}
+		},
+		{
+			"name":"Storage type",
+			"scope":"storage.type",
+			"settings":{
+				"foreground":"#24EDFF",
+				"fontStyle":"italic"
+			}
+		},
+		{
+			"name":"PHP Storage type (e.g. esc_html)",
+			"scope":"storage.type.php",
+			"settings":{
+				"foreground":"#1ABEFF",
+				"fontStyle":"italic"
+			}
+		},
+		{
+			"name":"JS Storage type (e.g. var)",
+			"scope":"storage.type.js",
+			"settings":{
+				"foreground":"#1ABEFF",
 				"fontStyle":"italic"
 			}
 		}
