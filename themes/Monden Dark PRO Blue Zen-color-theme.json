@@ -103,6 +103,9 @@
 		"editorRuler.foreground": "#252d3d89",
 		"editorBracketMatch.background": "#2e384772",
 		"editorBracketMatch.border": "#88888800",
+		"editorBracketHighlight.foreground1": "#F8F8F0",
+		"editorBracketHighlight.foreground2": "#F8F8F0",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#F8F8F0",
 		"editor.foldBackground": "#33507b30",
 		"editorOverviewRuler.background": "#67789f20",
 		"editorOverviewRuler.border": "#667da738",
@@ -359,7 +362,7 @@
 		},
 		{
 			"name":"CSS punctuation.definition",
-			"scope":"source.css punctuation.definition.string.begin,source.css punctuation.definition.string.end",
+			"scope":"punctuation.definition.string.begin.css,punctuation.definition.string.end.css",
 			"settings":{
 				"foreground":"#FFBF4D"
 			}
@@ -511,21 +514,21 @@
 			"name":"operator logical",
 			"scope":"keyword.operator.logical",
 			"settings":{
-				"foreground":"#f72d4a"
+				"foreground":"#FF4A57"
 			}
 		},
 		{
 			"name":"operator bitwise",
 			"scope":"keyword.operator.bitwise",
 			"settings":{
-				"foreground":"#f72d4a"
+				"foreground":"#FF4A57"
 			}
 		},
 		{
 			"name":"operator channel",
 			"scope":"keyword.operator.channel",
 			"settings":{
-				"foreground":"#f72d4a"
+				"foreground":"#FF4A57"
 			}
 		},
 		{
@@ -536,10 +539,24 @@
 			}
 		},
 		{
+			"name":"CSS Constants",
+			"scope":"support.constant.css",
+			"settings":{
+				"foreground":"#22C6FF"
+			}
+		},
+		{
 			"name":"CSS/SCSS/LESS Operators",
 			"scope":"keyword.operator.css,keyword.operator.scss,keyword.operator.less",
 			"settings":{
-				"foreground":"#f72d4a"
+				"foreground":"#FF4A57"
+			}
+		},
+		{
+			"name":"CSS/SCSS/LESS Arithmetic Operators",
+			"scope":"keyword.operator.arithmetic.css,keyword.operator.arithmetic.scss,keyword.operator.arithmetic.less",
+			"settings":{
+				"foreground":"#FF4A57"
 			}
 		},
 		{
@@ -567,7 +584,7 @@
 			"name":"css property-name",
 			"scope":"support.type.vendored.property-name.css",
 			"settings":{
-				"foreground":"#f72d4a"
+				"foreground":"#919FAF"
 			}
 		},
 		{
@@ -953,7 +970,35 @@
 			"name":"Support",
 			"scope":"support.function",
 			"settings":{
-				"foreground":"#f72d4a"
+				"foreground":"#3FA2FC"
+			}
+		},
+		{
+			"name":"CSS Functions ( aka scale() )",
+			"scope":"support.function.css",
+			"settings":{
+				"foreground":"#3993FF"
+			}
+		},
+		{
+			"name":"Library class Library type",
+			"scope":"support.type,support.class",
+			"settings":{
+				"foreground":"#52E2FF"
+			}
+		},
+		{
+			"name":"CSS Properties",
+			"scope":"support.type.css,support.class.css",
+			"settings":{
+				"foreground":"#919FAF"
+			}
+		},
+		{
+			"name":"CSS String",
+			"scope":"string.css",
+			"settings":{
+				"foreground":"#F4DA98"
 			}
 		},
 		{
