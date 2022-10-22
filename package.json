@@ -1,0 +1,21 @@
+{
+  "name": "monden-pro-dark-blue-zen",
+  "displayName": "Monden PRO Dark Blue Zen",
+  "description": "A Dark Theme that's both good for your eyes and looks great. Designed by a veteran Graphic/Web Designer.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monden Dark PRO Blue Zen",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Monden Dark PRO Blue Zen-color-theme.json"
+      }
+    ]
+  }
+}
