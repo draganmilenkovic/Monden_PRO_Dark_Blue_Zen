@@ -1,4 +1,4 @@
-# [beta] Monden PRO Dark Blue Zen VS Code Color Theme
+# Monden PRO Dark Blue Zen VS Code Color Theme
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
 
@@ -10,7 +10,6 @@
   </a>
 
   <h3 align="center">Monden PRO Dark Blue Zen</h3>
-  <h3 align="center">WORK IN PROGRESS - WORK IN PROGRESS - WORK IN PROGRESS</h3>
 
   <p align="center">
     A Dark Theme that's both good for your eyes and looks great. Designed by a Graphic/Web Design PRO.
@@ -32,7 +31,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Color theme (<a href="https://github.com/draganmilenkovic/Monden_PRO_Dark_Blue_Zen">Monden PRO Dark Blue Zen</a>) for VS Code is just a first in a collection-to-be of eye-washing, polished-looking VS Code color themes.
+Color theme (<a href="https://github.com/draganmilenkovic/Monden_PRO_Dark_Blue_Zen">Monden PRO Dark Blue Zen</a>) for VS Code is just the first in a collection-to-be of eye-washing, polished VS Code color themes. Currently I'm converting 9 Sublime Text color themes which complete the collection and you can follow the progress.
 
 <!-- FEATURES -->
 ## Features:

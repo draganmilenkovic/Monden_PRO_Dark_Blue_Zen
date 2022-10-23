@@ -1475,7 +1475,7 @@
 			"name":"Regular Expressions",
 			"scope":"string.regexp",
 			"settings":{
-				"foreground":"#fad87bf0"
+				"foreground":"#f2ca5bf0"
 			}
 		},
 		{
