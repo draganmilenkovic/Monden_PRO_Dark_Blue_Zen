@@ -1,7 +1,7 @@
 {
 	"name": "Monden Dark PRO Blue Zen",
 	"colors": {
-		"foreground": "#f8f8f2",
+		"foreground": "#F8F8F2",
 		"focusBorder": "#43484b",
 		"selection.background": "#2e3847",
 		"scrollbar.shadow": "#000000",
@@ -78,7 +78,7 @@
 		"editorCursor.background": "#000000",
 		"editor.selectionBackground": "#2e3847",
 		"editor.inactiveSelectionBackground": "#2a2d32",
-		"editorWhitespace.foreground": "#424e63",
+		"editorWhitespace.foreground": "#38455b",
 		"editor.selectionHighlightBackground": "#313f4d",
 		"editor.selectionHighlightBorder": "#3f5975",
 		"editor.findMatchBackground": "#ffd66658",
@@ -109,11 +109,11 @@
 		"editor.foldBackground": "#33507b30",
 		"editorOverviewRuler.background": "#67789f20",
 		"editorOverviewRuler.border": "#667da738",
-		"editorError.foreground": "#f9574656",
-		"editorError.background": "#ff3e3522",
+		"editorError.foreground": "#f9584600",
+		"editorError.background": "#ff3f3532",
 		"editorError.border": "#ffffff00",
-		"editorWarning.foreground": "#cca70085",
-		"editorWarning.background": "#ffc41310",
+		"editorWarning.foreground": "#cca70000",
+		"editorWarning.background": "#ffc4130a",
 		"editorWarning.border": "#ffffff00",
 		"editorInfo.foreground": "#29a5ff6c",
 		"editorInfo.background": "#30b0ff1c",
@@ -364,7 +364,7 @@
 			"name":"CSS punctuation.definition",
 			"scope":"punctuation.definition.string.begin.css,punctuation.definition.string.end.css",
 			"settings":{
-				"foreground":"#FFBF4D"
+				"foreground":"#f5ac3f"
 			}
 		},
 		{
@@ -554,7 +554,7 @@
 		},
 		{
 			"name":"CSS Constants",
-			"scope":"support.constant.css",
+			"scope":"support.constant",
 			"settings":{
 				"foreground":"#22C6FF"
 			}
@@ -595,10 +595,10 @@
 			}
 		},
 		{
-			"name":"css property-name",
-			"scope":"support.type.vendored.property-name.css",
+			"name":"Proprty name and CSS property-name grouped",
+			"scope":"support.type.property-name, support.type.vendored.property-name.css",
 			"settings":{
-				"foreground":"#919FAF"
+				"foreground":"#9caaba"
 			}
 		},
 		{
@@ -828,7 +828,7 @@
 			"name":"Variables",
 			"scope":"variable",
 			"settings":{
-				"foreground":"#f8f8f0"
+				"foreground":"#d2d2cb"
 			}
 		},
 		{
@@ -874,17 +874,79 @@
 			}
 		},
 		{
+			"name": "Regex Escape JS",
+			"scope": [
+				"constant.character.escape.backslash.regexp"
+			],
+			"settings": {
+				"foreground": "#367FFF"
+			}
+		},
+		{
+			"name": "Regex Escape JS",
+			"scope": [
+				"keyword.operator.or.regexp"
+			],
+			"settings": {
+				"foreground": "#FF4772"
+			}
+		},
+		{
 			"name":"Functions",
 			"scope":[
+				"support.function.js",
+			],
+			"settings":{
+				"foreground":"#B0FF5C"
+			}
+		},
+		{
+			"name": "PHP echo (function construct output)",
+			"scope": [
+				"support.function.construct.output.php"
+			],
+			"settings": {
+				"foreground": "#19e0ff"
+			}
+		},
+		{
+			"name": "Functions Declaration Color (when naming)",
+			"scope": [
 				"entity.name.function",
 				"meta.require",
 				"support.function.any-method",
 				"variable.function"
 			],
-			"settings":{
-				"foreground":"#1dcfff"
+			"settings": {
+				"foreground": "#19cdff"
 			}
 		},
+		{
+			"name": "JS Functions Declaration Color (when naming)",
+			"scope": [
+				"meta.definition.function.js entity.name.function"
+			],
+			"settings": {
+				"foreground": "#b5f73c"
+			}
+		},
+
+
+
+		{
+			"name": "JS Function Color when calling",
+			"scope": [
+				"meta.method-call.js entity.name.function",
+				"meta.function-call.js entity.name.function"
+			],
+			"settings": {
+				"foreground": "#1db8ff"
+			}
+		},
+
+
+
+
 		{
 			"name":"Classes",
 			"scope":"entity.name.type.namespace",
@@ -1016,10 +1078,11 @@
 			}
 		},
 		{
-			"name":"Support type",
-			"scope":"support.type.property-name",
-			"settings":{
-				"foreground":"#d4d4d4"
+			"name": "CSS URL string font style",
+			"scope": "variable.parameter.url.css",
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#F4DA98"
 			}
 		},
 		{
@@ -1034,6 +1097,13 @@
 			"scope":"punctuation.accessor",
 			"settings":{
 				"foreground":"#FF617F"
+			}
+		},
+		{
+			"name": "Hegemony",
+			"scope": "punctuation.accessor.js",
+			"settings": {
+				"foreground": "#f6879c"
 			}
 		},
 		{
@@ -1114,11 +1184,87 @@
 			}
 		},
 		{
+			"name": "Attributes",
+			"scope": "entity.other.attribute-name.html",
+			"settings": {
+				"foreground": "#97d737"
+			}
+		},
+		{
+			"name": "HTML class attribute",
+			"scope": [
+				"meta.attribute.class.html entity.other.attribute-name.html"
+			],
+			"settings": {
+				"foreground": "#0cc6e7"
+			}
+		},
+		{
+			"name": "HTML id attribute",
+			"scope": [
+				"meta.attribute.id.html entity.other.attribute-name.html"
+			],
+			"settings": {
+				"foreground": "#cb78f5"
+			}
+		},
+		{
+			"name": "HTML style attribute",
+			"scope": [
+				"meta.attribute.style.html entity.other.attribute-name.html"
+			],
+			"settings": {
+				"foreground": "#2ee4c9"
+			}
+		},
+		{
+			"name": "HTML href attribute",
+			"scope": [
+				"meta.attribute.href.html entity.other.attribute-name.html"
+			],
+			"settings": {
+				"foreground": "#54b2ff"
+			}
+		},
+		{
+			"name": "HTML <a> tag, HTML a tag quotes color",
+			"scope": [
+				"meta.tag.inline.a punctuation.definition.string.begin.html", "meta.tag.inline.a punctuation.definition.string.end.html",
+				"meta.tag.inline.a punctuation.definition.tag.begin.html",
+				"meta.tag.inline.a punctuation.definition.tag.end.html",
+				
+				"meta.tag.inline.apunctuation.separator.key-value.html"
+			],
+			"settings": {
+				"foreground": "#46c8ff"
+			}
+		},
+		{
+			"name": "Class names, attributes etc inside HTML <a> element",
+			"scope": "meta.tag.inline.a string.quoted",
+			"settings": {
+				"foreground": "#5ca5ff"
+			}
+		},
+		{
+			"name": "HTML <a> tag, HTML a tag color",
+			"scope": [
+				"meta.tag.inline.a entity.name.tag",
+				"meta.tag.inline.a meta.attribute.class.html entity.other.attribute-name.html",
+				"meta.tag.inline.a meta.attribute.style.html entity.other.attribute-name.html",
+				"meta.tag.inline.a entity.other.attribute-name.html",
+			],
+			"settings": {
+				"foreground": "#5f89ff"
+			}
+		},
+		
+		{
 			"name":"Attribute IDs",
 			"scope":"entity.other.attribute-name.id",
 			"settings":{
 				"fontStyle":"normal",
-				"foreground":"#B0FF5C"
+				"foreground":"#FFD664"
 			}
 		},
 		{
@@ -1130,10 +1276,18 @@
 			}
 		},
 		{
+			"name": "CSS attributes within selectors e.g. div[attribute]",
+			"scope": "entity.other.attribute-name.css",
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#addc2b"
+			}
+		},
+		{
 			"name":"Selector",
 			"scope":"meta.selector",
 			"settings":{
-				"foreground":"#ff4772"
+				"foreground":"#f8f8f8"
 			}
 		},
 		{
@@ -1154,7 +1308,7 @@
 			"name":"Units",
 			"scope":"keyword.other.unit",
 			"settings":{
-				"foreground":"#f8f8f0"
+				"foreground":"#F92672"
 			}
 		},
 		{
@@ -1162,6 +1316,13 @@
 			"scope":"keyword.other.unit.css",
 			"settings":{
 				"foreground":"#F92672"
+			}
+		},
+		{
+			"name": "CSS Units",
+			"scope": "entity.other.keyframe-offset.percentage.css",
+			"settings": {
+				"foreground": "#ce9dec"
 			}
 		},
 		{
@@ -1304,10 +1465,17 @@
 			}
 		},
 		{
+			"name":"PHP this as in $this->",
+			"scope":"variable.language.this.php",
+			"settings":{
+				"foreground":"#e4e4dc"
+			}
+		},
+		{
 			"name":"Regular Expressions",
 			"scope":"string.regexp",
 			"settings":{
-				"foreground":"#f72d4a"
+				"foreground":"#fad87bf0"
 			}
 		},
 		{
@@ -1328,7 +1496,7 @@
 			"name":"Embedded",
 			"scope":"punctuation.section.embedded.begin,punctuation.section.embedded.end",
 			"settings":{
-				"foreground":"#ff4772"
+				"foreground":"#f2ebed"
 			}
 		},
 		{
@@ -1468,7 +1636,7 @@
 			"name":"php types",
 			"scope":"storage.type.php,meta.other.type.phpdoc.php,keyword.other.type.php,keyword.other.array.phpdoc.php",
 			"settings":{
-				"foreground":"#1ec0ff"
+				"foreground":"#1ABEFF"
 			}
 		},
 		{
@@ -1510,7 +1678,7 @@
 			"name":"php logical/bitwise operator",
 			"scope":"keyword.operator.logical.php,keyword.operator.bitwise.php,keyword.operator.arithmetic.php",
 			"settings":{
-				"foreground":"#f72d4a"
+				"foreground":"#ff4772"
 			}
 		},
 		{
@@ -1580,7 +1748,7 @@
 			"name":"User-defined constant",
 			"scope":"constant.character,constant.other",
 			"settings":{
-				"foreground":"#B685FF"
+				"foreground":"#9665ff"
 			}
 		},
 		{
@@ -1736,6 +1904,24 @@
 			}
 		},
 		{
+			"name": "Variable parameter",
+			"scope": [
+				"variable.parameter.js"
+			],
+			"settings": {
+				"foreground": "#FC771F"
+			}
+		},
+		{
+			"name": "Variable Object e.g. ScrollSmoother.",
+			"scope": [
+				"variable.other.object.js"
+			],
+			"settings": {
+				"foreground": "#2CD7FF"
+			}
+		},
+		{
 			"name":"js template literals begin",
 			"scope":[
 				"keyword.other.template.begin"
@@ -1851,7 +2037,7 @@
 				"entity.other.attribute-name.pseudo-class"
 			],
 			"settings":{
-				"foreground":"#C2C7CC"
+				"foreground":"#d9dde0"
 			}
 		},
 		{
@@ -2149,7 +2335,6 @@
 			"name":"Comments",
 			"scope":"comment, punctuation.definition.comment",
 			"settings":{
-				"fontStyle":"italic",
 				"foreground":"#5e6b85"
 			}
 		},
