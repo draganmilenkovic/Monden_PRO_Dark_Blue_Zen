@@ -46,6 +46,7 @@ Monden PRO Dark Blue Zen theme strikes the center of beautiful colors and eye-ca
 
 <!-- SCREENSHOTS -->
 ## Screenshots
+NOTE: These are Sublime Text screenshots. The VS Code theme is still being finalized, it's a chore to match every color, so I'll create screenshots when the colors are set.
 
 #### JS - Dark PRO Blue X-Deep
 <img src="images/demo-js-blue-xdeep.png" />
