@@ -354,6 +354,13 @@
 			}
 		},
 		{
+			"name":"Arrow in php $this->",
+			"scope":"keyword.operator.class.php",
+			"settings":{
+				"foreground":"#FF617F"
+			}
+		},
+		{
 			"name":"punctuation.definition",
 			"scope":"punctuation.definition.string.begin,punctuation.definition.string.end",
 			"settings":{
