@@ -2335,6 +2335,7 @@
 			"name":"Comments",
 			"scope":"comment, punctuation.definition.comment",
 			"settings":{
+				"fontStyle":"normal",
 				"foreground":"#5e6b85"
 			}
 		},
@@ -2371,7 +2372,7 @@
 			"name":"comment",
 			"scope":"comment.line.double-slash,comment.block.documentation",
 			"settings":{
-				"fontStyle":"italic"
+				"fontStyle":"normal"
 			}
 		},
 		{
