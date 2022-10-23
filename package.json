@@ -7,11 +7,17 @@
   "engines": {
     "vscode": "^1.72.0"
   },
-  "sponsor": [
-    {
-      "url": "https://www.patreon.com/monden"
-    },
+  "keywords": [
+    "dark", "blue", "purple", "sublime", "zen",
+    "monden", "pro dark", "professional", "dark code", "dark coder",
+    "monokai", "eyes", "eyecare", "beautiful", 
+    "best dark vscode theme", "best dark vs code theme", 
+    "best dark vscode themes", "best dark vs code themes", 
+    "awesome", "material", "atom", "proton"
   ],
+  "sponsor": {
+    "url": "https://www.patreon.com/monden"
+  },
   "icon": "images/monden-pro-dark-icon.png",
   "author": {
     "name": "Dragan Milenkovic",
