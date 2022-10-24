@@ -853,6 +853,13 @@
 			}
 		},
 		{
+			"name": "JS this variable",
+			"scope": "variable.language.this.js",
+			"settings": {
+				"foreground": "#EF9D25"
+			}
+		},
+		{
 			"name":"Java Variables",
 			"scope":"token.variable.parameter.java",
 			"settings":{

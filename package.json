@@ -3,7 +3,7 @@
   "displayName": "Monden PRO Dark Blue Zen",
   "description": "A Dark Theme that's both good for your eyes and looks great. Designed by a veteran Graphic/Web Designer.",
   "publisher": "skilltech",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "engines": {
     "vscode": "^1.72.0"
   },
@@ -13,7 +13,7 @@
     "monokai", "eyes", "eyecare", "beautiful", 
     "best dark vscode theme", "best dark vs code theme", 
     "best dark vscode themes", "best dark vs code themes", 
-    "awesome", "material", "atom", "proton"
+    "awesome", "material", "atom", "proton", "fleet"
   ],
   "sponsor": {
     "url": "https://www.patreon.com/monden"
