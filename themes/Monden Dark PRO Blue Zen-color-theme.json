@@ -106,7 +106,7 @@
 		"editorBracketHighlight.foreground1": "#F8F8F0",
 		"editorBracketHighlight.foreground2": "#F8F8F0",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#F8F8F0",
-		"editor.foldBackground": "#33507b00",
+		"editor.foldBackground": "#1F223138",
 		"editorOverviewRuler.background": "#67789f20",
 		"editorOverviewRuler.border": "#667da738",
 		"editorError.foreground": "#f9584600",
