@@ -856,7 +856,14 @@
 			"name": "JS this variable",
 			"scope": "variable.language.this.js",
 			"settings": {
-				"foreground": "#EF9D25"
+				"foreground": "#F97D21"
+			}
+		},
+		{
+			"name": "PHP Concatenate/concatenation mark",
+			"scope": "keyword.operator.string.php",
+			"settings": {
+				"foreground": "#F72D4A"
 			}
 		},
 		{
@@ -1496,7 +1503,7 @@
 			"name":"Escape Characters",
 			"scope":"constant.character.escape",
 			"settings":{
-				"foreground":"#f72d4a"
+				"foreground":"#367FFF"
 			}
 		},
 		{
