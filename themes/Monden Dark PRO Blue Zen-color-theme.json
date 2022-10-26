@@ -800,7 +800,7 @@
 			"name":"Operators",
 			"scope":"keyword.operator",
 			"settings":{
-				"foreground":"#d4d4d4"
+				"foreground":"#F72D4A"
 			}
 		},
 		{
